@@ -213,24 +213,6 @@ footer {
 /* Media Queries */
 
 @media only screen and (min-width: 400px) {
-	.carousel-caption {
-		display: inline-block;
-		bottom: 10px;
-		text-align: center;
-		font-size: 13px;
-		text-shadow: 
-			-1px -1px 0px #000,
-			0px -1px 0px #000,
-			1px -1px 0px #000,
-			-1px  0px 0px #000,
-			1px  0px 0px #000,
-			-1px  1px 0px #000,
-			0px  1px 0px #000,
-			1px  1px 0px #000;
-	}
-}
-
-@media only screen and (min-width: 400px) {
 	#title {
 		font-size: 40px;
 	}
@@ -251,6 +233,24 @@ footer {
 
 	#show-more span {
 		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width: 420px) {
+	.carousel-caption {
+		display: inline-block;
+		bottom: 10px;
+		text-align: center;
+		font-size: 13px;
+		text-shadow: 
+			-1px -1px 0px #000,
+			0px -1px 0px #000,
+			1px -1px 0px #000,
+			-1px  0px 0px #000,
+			1px  0px 0px #000,
+			-1px  1px 0px #000,
+			0px  1px 0px #000,
+			1px  1px 0px #000;
 	}
 }
 
