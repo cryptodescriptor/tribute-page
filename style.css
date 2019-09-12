@@ -254,7 +254,7 @@ footer {
 	}
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 520px) {
 	.carousel-control-prev-icon,
 	.carousel-control-next-icon {
 		width: 56px;
@@ -281,13 +281,6 @@ footer {
 	}
 }
 
-@media only screen and (min-width: 900px) {
-	.carousel-control-prev-icon,
-	.carousel-control-next-icon {
-		width: 112px;
-		height: 64px;
-	}
-}
 
 @media only screen and (min-width: 860px) {
 	#carousel-caption-1,
@@ -306,6 +299,12 @@ footer {
 		text-align: right;
 		max-width: 320px;
 		font-size: 20px;
+	}
+	
+	.carousel-control-prev-icon,
+	.carousel-control-next-icon {
+		width: 84px;
+		height: 48px;
 	}
 }
 
