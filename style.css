@@ -173,14 +173,25 @@ pass FreecodeCamp automated tests. */
 	justify-content: center;
 }
 
-#show-more span {
+#show-more {
 	cursor: pointer;
 	font-weight: bold;
 	padding: 5px;
 	font-size: 14px;
+	/* Button styling */
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: none;
+	border: none;
+	border-top: solid 1px rgba(0, 0, 0, 0.1);
+	border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+	padding-top: 7px;
+	padding-bottom: 7px;
 }
 
-hr {
+hr,
+#show-more {
 	margin-top: 12px;
 	margin-bottom: 12px;
 }
@@ -231,7 +242,7 @@ footer {
 		padding-right: 10px;
 	}
 
-	#show-more span {
+	#show-more {
 		font-size: 16px;
 	}
 }
