@@ -1,5 +1,4 @@
 var $show_more = $('#show-more');
-var $show_more_span = $('#show-more span');
 var $hidden = $('#hidden');
 var $visible = $('#visible');
 
@@ -152,11 +151,9 @@ timeline['timeline'].forEach(function(li, i) {
 $show_more.on('click', function() {
   if ($show_more.hasClass('shown')) {
     $hidden.hide();
-    $show_more_span.text('Show More...');
-    $show_more.removeClass('shown');
+    $show_more.text('Show More...').removeClass('shown');
   } else {
     $hidden.show();
-    $show_more_span.text('Hide');
-    $show_more.addClass('shown');
+    $show_more.text('Hide').addClass('shown');
   }
 });
