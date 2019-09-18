@@ -135,11 +135,11 @@ ul > li {
 	font-size: 16px;
 	line-height: 24px;
 	padding-left: 26px;
-	padding-bottom: 30px;
+	margin-bottom: 30px;
 }
 
 ul > li:last-child {
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 /* Do not need this because we are
