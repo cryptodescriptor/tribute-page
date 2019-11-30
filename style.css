@@ -187,15 +187,6 @@ hr,
 	margin-bottom: 12px;
 }
 
-.show-more-hr-top {
-	margin-bottom: 2px;
-}
-
-.show-more-hr-bottom {
-	margin-top: 2px;
-}
-
-
 footer {
 	text-align: center;
 	font-size: 15px;
@@ -208,7 +199,7 @@ footer {
     display: none;
 }
 
-.carousel-caption blockquote {
+.carousel-caption > blockquote {
 	font-style: italic;
 }
 
@@ -283,7 +274,6 @@ footer {
 	}
 }
 
-
 @media only screen and (min-width: 860px) {
 	#carousel-caption-1,
 	#carousel-caption-3 {
@@ -302,7 +292,7 @@ footer {
 		max-width: 320px;
 		font-size: 20px;
 	}
-	
+
 	.carousel-control-prev-icon,
 	.carousel-control-next-icon {
 		width: 84px;
