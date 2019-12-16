@@ -15,6 +15,9 @@ body {
 	Arial, 
 	sans-serif;
 	font-weight: 400;
+	overflow-y: hidden; /* stop
+	the scroll bar being visible
+	while loading */
 }
 
 #main {
